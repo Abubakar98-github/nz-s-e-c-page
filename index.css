@@ -19,6 +19,7 @@ nav{
 }
 .logo{
     font-size: 22px;
+    cursor: pointer;
 }
 ul{
     display: flex;
@@ -37,6 +38,7 @@ ul li a:hover{
 }
 nav i{
     font-size: 26px;
+    cursor: pointer;
 }
 .main{
     display: flex;
@@ -63,7 +65,10 @@ nav i{
     color: white;
     font-size: 22px;
     border: none;
+    border-radius: 5px;
     margin-top: 22px;
+    cursor: pointer;
+
 }
 .shop{
     display: flex;
@@ -85,8 +90,10 @@ nav i{
     color: white;
     font-size: 18px;
     border: none;
+    border-radius: 5px;
     margin-top: 21px;
     cursor: pointer;
+    margin-bottom: 15px;
 }
 .shopcard p{
     margin-top: 11px;
@@ -125,6 +132,8 @@ nav i{
     font-size: 20px;
     border: none;
     color: white;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .blogs{
     display: flex;
@@ -141,13 +150,13 @@ nav i{
     height: 300px;
 }
 .blogs a{
-    padding: 4px 22px;
+    padding: 7px 20px;
     background-color: rgb(245, 7, 46);
     color: white;
     text-decoration: none;
     position: relative;
     top: 12px;
-
+cursor: pointer;
 }
 .footer{
     display: flex;
